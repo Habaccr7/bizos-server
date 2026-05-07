@@ -24,24 +24,24 @@ const CONFIG = {
 
   // 4 Facebook Pages của bạn
   // Điền PAGE_ACCESS_TOKEN vào đây (không paste lên chat)
-  PAGES: {
-    '61577403680162': {
-      name: 'Cổng thanh toán Stripe - DTEcom',
-      token: 'EAAWX8ZCvGzAoBRU4INaO3OPQGO1KHpMReqws34qPQOUfFZBfjPxgqgiSTs96iC47BGifSXZBSkXubYAYb5zcllKfDTVZCpQZABEJNAfmq9DR4gwmYSMzW0BgeZBhcf2PQs673YOWPoEGUPEsa7vJqKlWpN7TvjmMEr0tiEd5EMBtomlzRup65DxQKnC83OgmZAmf43pHE2eQJy4mCXvRsVl518vyqcIhUSXUz9pxFtsG10ZD'
-    },
-    '61586036942909': {
-      name: 'Cổng thanh toán DTEcom Việt Nam',
-      token: '
-EAAWX8ZCvGzAoBRQwYaKw0V4e3XyiOx0krj5NRW406xYPHG8lQ034751SUby6t1YfWABCZBcuTsDjKKcT2ojJivMJm7NxzOWn476dkO5RZC6JVaTcNJmIbBib3N0fZB1fmyHmiKs7GdXIoFuFGuSlzZAaGFd0tuqx9nvIjkJCtqG7uAGytiSHTIExqKtnC7VXZAmFbT97X6K206sSpGq9ZBey0tD9bMbkyGwpYvs0GXVG3sZD'
-    },
-    '61585879570717': {
-      name: 'DT Ecom Payment Services ',
-      token: 'EAAWX8ZCvGzAoBRUVZB3RFfcvnlUxZASPZBu3xMU22KZCr2Hb80dwtitjQDIoZAw35qj8S7VjKXGZCIpFRjbkisSBIeXnUozOCLE0lm6DXVZB2LEnFOCVE9KpmGmvnadekGEJTFZBWMG5wbjy6jy9E8iSZCU8JZAMnDnknyOUnXYdxZAUeBurHEl9NW1bqVmihsc6fRl6dlzA89e6CeHmhhHf18n7UtjZCLZAHuQGEyKpvCsXNa4l4ZD'
-    },
-    '100093357796281': {
-      name: 'Dịch vụ mở Bank us Chính chủ - DT Ecom',
-      token: 'EAAWX8ZCvGzAoBRUDJ56ZBkrivjggFXNtN6iD1TZBRI9t2ciHskakxVxpRPTRLkkZCyu0UinqXFlV4ZBXVHsCc44JZAW8FhcjaPZCHZBldUBEi1b4tfoeACay2qNT4CfAFFlak6ZBHV3SAALvY9UdF6jHmxCeVrxOZCTwmMZBj8PHz2jXN9ov3EsBELYaz11ZBnyqtIB0SaZAwaMphg3o8l2yM9O4CRXRgvUaXKD9RwsgYVPGTdAZDZD'
-    }
+PAGES: {
+  '61577403680162': {
+    name: 'Cổng thanh toán Stripe - DTEcom',
+    token: 'EAAWX8ZCvGzAoBRU4INaO3OPQGO1KHpMReqws34qPQOUfFZBfjPxgqgiSTs96iC47BGifSXZBSkXubYAYb5zcllKfDTVZCpQZABEJNAfmq9DR4gwmYSMzW0BgeZBhcf2PQs673YOWPoEGUPEsa7vJqKlWpN7TvjmMEr0tiEd5EMBtomlzRup65DxQKnC83OgmZAmf43pHE2eQJy4mCXvRsVl518vyqcIhUSXUz9pxFtsG10ZD'
+  },
+  '61586036942909': {
+    name: 'Cổng thanh toán DTEcom Việt Nam',
+    token: 'EAAWX8ZCvGzAoBRQwYaKw0V4e3XyiOx0krj5NRW406xYPHG8lQ034751SUby6t1YfWABCZBcuTsDjKKcT2ojJivMJm7NxzOWn476dkO5RZC6JVaTcNJmIbBib3N0fZB1fmyHmiKs7GdXIoFuFGuSlzZAaGFd0tuqx9nvIjkJCtqG7uAGytiSHTIExqKtnC7VXZAmFbT97X6K206sSpGq9ZBey0tD9bMbkyGwpYvs0GXVG3sZD'
+  },
+  '61585879570717': {
+    name: 'DT Ecom Payment Services',
+    token: 'EAAWX8ZCvGzAoBRUVZB3RFfcvnlUxZASPZBu3xMU22KZCr2Hb80dwtitjQDIoZAw35qj8S7VjKXGZCIpFRjbkisSBIeXnUozOCLE0lm6DXVZB2LEnFOCVE9KpmGmvnadekGEJTFZBWMG5wbjy6jy9E8iSZCU8JZAMnDnknyOUnXYdxZAUeBurHEl9NW1bqVmihsc6fRl6dlzA89e6CeHmhhHf18n7UtjZCLZAHuQGEyKpvCsXNa4l4ZD'
+  },
+  '100093357796281': {
+    name: 'Dịch vụ mở Bank us Chính chủ - DT Ecom',
+    token: 'EAAWX8ZCvGzAoBRUDJ56ZBkrivjggFXNtN6iD1TZBRI9t2ciHskakxVxpRPTRLkkZCyu0UinqXFlV4ZBXVHsCc44JZAW8FhcjaPZCHZBldUBEi1b4tfoeACay2qNT4CfAFFlak6ZBHV3SAALvY9UdF6jHmxCeVrxOZCTwmMZBj8PHz2jXN9ov3EsBELYaz11ZBnyqtIB0SaZAwaMphg3o8l2yM9O4CRXRgvUaXKD9RwsgYVPGTdAZDZD'
+  }
+},
   },
 
   // Anthropic AI
