@@ -43,7 +43,7 @@ const CONFIG = {
   },
 
   // Anthropic AI — lấy key tại https://console.anthropic.com
-  ANTHROPIC_KEY: process.env.ANTHROPIC_KEY || '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',
+ ANTHROPIC_KEY: process.env.ANTHROPIC_KEY,
 
   // Auto-reply: true = AI tự reply, false = chỉ lưu vào app
   AUTO_REPLY: false,
